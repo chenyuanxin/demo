@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HistoryTableViewController.h
 //  MySafari
 //
 //  Created by Apple on 2018/4/15.
@@ -8,9 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
 
--(void)loadURL:(NSString *)urlStr;
+@interface HistoryTableViewController : UITableViewController
 
 @end
-

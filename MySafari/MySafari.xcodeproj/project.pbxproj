@@ -13,6 +13,8 @@
 		18FDFA45208353C40084393F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FDFA44208353C40084393F /* Assets.xcassets */; };
 		18FDFA48208353C40084393F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FDFA46208353C40084393F /* LaunchScreen.storyboard */; };
 		18FDFA4B208353C40084393F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FDFA4A208353C40084393F /* main.m */; };
+		18FDFA532083A8E80084393F /* HistoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FDFA522083A8E80084393F /* HistoryTableViewController.m */; };
+		18FDFA562083A90A0084393F /* LikeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FDFA552083A90A0084393F /* LikeTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		18FDFA47208353C40084393F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18FDFA49208353C40084393F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18FDFA4A208353C40084393F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18FDFA512083A8E80084393F /* HistoryTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoryTableViewController.h; sourceTree = "<group>"; };
+		18FDFA522083A8E80084393F /* HistoryTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoryTableViewController.m; sourceTree = "<group>"; };
+		18FDFA542083A90A0084393F /* LikeTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LikeTableViewController.h; sourceTree = "<group>"; };
+		18FDFA552083A90A0084393F /* LikeTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LikeTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,10 @@
 				18FDFA44208353C40084393F /* Assets.xcassets */,
 				18FDFA46208353C40084393F /* LaunchScreen.storyboard */,
 				18FDFA49208353C40084393F /* Info.plist */,
+				18FDFA512083A8E80084393F /* HistoryTableViewController.h */,
+				18FDFA522083A8E80084393F /* HistoryTableViewController.m */,
+				18FDFA542083A90A0084393F /* LikeTableViewController.h */,
+				18FDFA552083A90A0084393F /* LikeTableViewController.m */,
 				18FDFA4A208353C40084393F /* main.m */,
 			);
 			path = MySafari;
@@ -141,6 +151,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18FDFA532083A8E80084393F /* HistoryTableViewController.m in Sources */,
+				18FDFA562083A90A0084393F /* LikeTableViewController.m in Sources */,
 				18FDFA40208353C30084393F /* ViewController.m in Sources */,
 				18FDFA4B208353C40084393F /* main.m in Sources */,
 				18FDFA3D208353C30084393F /* AppDelegate.m in Sources */,
