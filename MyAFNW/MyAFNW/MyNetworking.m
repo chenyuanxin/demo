@@ -23,6 +23,8 @@
 //get类型的请求
 +(void)getRequestWithURLString:(NSString *)urlStr finish:(void (^)(BOOL, NSData *))finish{
     urlStr = [urlStr stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+    NSLog(@"urlStr = %@", urlStr);
+    
     AFHTTPSessionManager * manager = [AFHTTPSessionManager manager];
     manager.requestSerializer = [AFHTTPRequestSerializer serializer];
     if ([MyNetworking sharedNetWorking].HTTPHeadersDic) {

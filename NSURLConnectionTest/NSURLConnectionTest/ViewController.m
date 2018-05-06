@@ -43,7 +43,7 @@
      */
     
     //代理方式处理网络回调
-    NSURL * url = [NSURL URLWithString:@"http://apis.baidu.com/apistore/wooyun/unclaim?limit=10"];
+    NSURL * url = [NSURL URLWithString:@"http://www.baidu.com"];
     NSMutableURLRequest * request = [NSMutableURLRequest requestWithURL:url];
     [request setValue:@"c925fbc1226c37b905a4d1e2a8cbbe99" forHTTPHeaderField:@"apikey"];
     NSURLConnection * connection = [[NSURLConnection alloc]initWithRequest:request delegate:self];
