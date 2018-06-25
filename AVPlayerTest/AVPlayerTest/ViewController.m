@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import <AVKit/AVKit.h>
+#import <AVFoundation/AVFoundation.h>
 
 @interface ViewController ()
 
@@ -17,6 +19,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+//播放视频
+- (IBAction)playMovie:(UIButton *)sender {
+//    NSString * path = [[NSBundle mainBundle]pathForResource:@"iphone" ofType:@"mp4"];
+    NSString * path = [[NSBundle mainBundle]pathForResource:@"iphone" ofType:@"mp4"];
+    NSLog(@"path = %@", path);
+    NSURL * url = [NSURL fileURLWithPath:path];
+    if (url) {
+        NSLog(@"url = %@", url);
+    }
+    AVPlayerViewController * play = [[AVPlayerViewController alloc]init];
+    play.player = [[AVPlayer alloc]initWithURL:url];
+    [self presentViewController:play animated:YES completion:nil];
 }
 
 

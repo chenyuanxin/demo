@@ -7,30 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18DBD17D20AA5E1C00632B5A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DBD17C20AA5E1C00632B5A /* AppDelegate.m */; };
-		18DBD18020AA5E1C00632B5A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DBD17F20AA5E1C00632B5A /* ViewController.m */; };
-		18DBD18320AA5E1C00632B5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DBD18120AA5E1C00632B5A /* Main.storyboard */; };
-		18DBD18520AA5E1E00632B5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DBD18420AA5E1E00632B5A /* Assets.xcassets */; };
-		18DBD18820AA5E1E00632B5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DBD18620AA5E1E00632B5A /* LaunchScreen.storyboard */; };
-		18DBD18B20AA5E1E00632B5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DBD18A20AA5E1E00632B5A /* main.m */; };
+		18469E7520DA38A400575942 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18469E7420DA38A400575942 /* AppDelegate.m */; };
+		18469E7820DA38A400575942 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18469E7720DA38A400575942 /* ViewController.m */; };
+		18469E7B20DA38A400575942 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18469E7920DA38A400575942 /* Main.storyboard */; };
+		18469E7E20DA38A400575942 /* myiCloudTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18469E7C20DA38A400575942 /* myiCloudTest.xcdatamodeld */; };
+		18469E8020DA38A700575942 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18469E7F20DA38A700575942 /* Assets.xcassets */; };
+		18469E8320DA38A700575942 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18469E8120DA38A700575942 /* LaunchScreen.storyboard */; };
+		18469E8620DA38A700575942 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18469E8520DA38A700575942 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		18DBD17820AA5E1C00632B5A /* AVPlayerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVPlayerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		18DBD17B20AA5E1C00632B5A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		18DBD17C20AA5E1C00632B5A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		18DBD17E20AA5E1C00632B5A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		18DBD17F20AA5E1C00632B5A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		18DBD18220AA5E1C00632B5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		18DBD18420AA5E1E00632B5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		18DBD18720AA5E1E00632B5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		18DBD18920AA5E1E00632B5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18DBD18A20AA5E1E00632B5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		18DBD19420AA681A00632B5A /* iphone.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = iphone.mp4; path = ../../../../Downloads/iphone.mp4; sourceTree = "<group>"; };
+		18469E7020DA38A400575942 /* myiCloudTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myiCloudTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18469E7320DA38A400575942 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18469E7420DA38A400575942 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18469E7620DA38A400575942 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18469E7720DA38A400575942 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18469E7A20DA38A400575942 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18469E7D20DA38A400575942 /* myiCloudTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = myiCloudTest.xcdatamodel; sourceTree = "<group>"; };
+		18469E7F20DA38A700575942 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18469E8220DA38A700575942 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18469E8420DA38A700575942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18469E8520DA38A700575942 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		18DBD17520AA5E1C00632B5A /* Frameworks */ = {
+		18469E6D20DA38A400575942 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,74 +41,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		18DBD16F20AA5E1C00632B5A = {
+		18469E6720DA38A400575942 = {
 			isa = PBXGroup;
 			children = (
-				18DBD17A20AA5E1C00632B5A /* AVPlayerTest */,
-				18DBD17920AA5E1C00632B5A /* Products */,
+				18469E7220DA38A400575942 /* myiCloudTest */,
+				18469E7120DA38A400575942 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		18DBD17920AA5E1C00632B5A /* Products */ = {
+		18469E7120DA38A400575942 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				18DBD17820AA5E1C00632B5A /* AVPlayerTest.app */,
+				18469E7020DA38A400575942 /* myiCloudTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		18DBD17A20AA5E1C00632B5A /* AVPlayerTest */ = {
+		18469E7220DA38A400575942 /* myiCloudTest */ = {
 			isa = PBXGroup;
 			children = (
-				18DBD17B20AA5E1C00632B5A /* AppDelegate.h */,
-				18DBD17C20AA5E1C00632B5A /* AppDelegate.m */,
-				18DBD17E20AA5E1C00632B5A /* ViewController.h */,
-				18DBD17F20AA5E1C00632B5A /* ViewController.m */,
-				18DBD19420AA681A00632B5A /* iphone.mp4 */,
-				18DBD18120AA5E1C00632B5A /* Main.storyboard */,
-				18DBD18420AA5E1E00632B5A /* Assets.xcassets */,
-				18DBD18620AA5E1E00632B5A /* LaunchScreen.storyboard */,
-				18DBD18920AA5E1E00632B5A /* Info.plist */,
-				18DBD18A20AA5E1E00632B5A /* main.m */,
+				18469E7320DA38A400575942 /* AppDelegate.h */,
+				18469E7420DA38A400575942 /* AppDelegate.m */,
+				18469E7620DA38A400575942 /* ViewController.h */,
+				18469E7720DA38A400575942 /* ViewController.m */,
+				18469E7920DA38A400575942 /* Main.storyboard */,
+				18469E7F20DA38A700575942 /* Assets.xcassets */,
+				18469E8120DA38A700575942 /* LaunchScreen.storyboard */,
+				18469E8420DA38A700575942 /* Info.plist */,
+				18469E8520DA38A700575942 /* main.m */,
+				18469E7C20DA38A400575942 /* myiCloudTest.xcdatamodeld */,
 			);
-			path = AVPlayerTest;
+			path = myiCloudTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		18DBD17720AA5E1C00632B5A /* AVPlayerTest */ = {
+		18469E6F20DA38A400575942 /* myiCloudTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18DBD18E20AA5E1E00632B5A /* Build configuration list for PBXNativeTarget "AVPlayerTest" */;
+			buildConfigurationList = 18469E8920DA38A700575942 /* Build configuration list for PBXNativeTarget "myiCloudTest" */;
 			buildPhases = (
-				18DBD17420AA5E1C00632B5A /* Sources */,
-				18DBD17520AA5E1C00632B5A /* Frameworks */,
-				18DBD17620AA5E1C00632B5A /* Resources */,
+				18469E6C20DA38A400575942 /* Sources */,
+				18469E6D20DA38A400575942 /* Frameworks */,
+				18469E6E20DA38A400575942 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = AVPlayerTest;
-			productName = AVPlayerTest;
-			productReference = 18DBD17820AA5E1C00632B5A /* AVPlayerTest.app */;
+			name = myiCloudTest;
+			productName = myiCloudTest;
+			productReference = 18469E7020DA38A400575942 /* myiCloudTest.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		18DBD17020AA5E1C00632B5A /* Project object */ = {
+		18469E6820DA38A400575942 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0930;
-				ORGANIZATIONNAME = Apple;
+				ORGANIZATIONNAME = cyx;
 				TargetAttributes = {
-					18DBD17720AA5E1C00632B5A = {
+					18469E6F20DA38A400575942 = {
 						CreatedOnToolsVersion = 9.3;
 					};
 				};
 			};
-			buildConfigurationList = 18DBD17320AA5E1C00632B5A /* Build configuration list for PBXProject "AVPlayerTest" */;
+			buildConfigurationList = 18469E6B20DA38A400575942 /* Build configuration list for PBXProject "myiCloudTest" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,55 +116,56 @@
 				en,
 				Base,
 			);
-			mainGroup = 18DBD16F20AA5E1C00632B5A;
-			productRefGroup = 18DBD17920AA5E1C00632B5A /* Products */;
+			mainGroup = 18469E6720DA38A400575942;
+			productRefGroup = 18469E7120DA38A400575942 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				18DBD17720AA5E1C00632B5A /* AVPlayerTest */,
+				18469E6F20DA38A400575942 /* myiCloudTest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		18DBD17620AA5E1C00632B5A /* Resources */ = {
+		18469E6E20DA38A400575942 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18DBD18820AA5E1E00632B5A /* LaunchScreen.storyboard in Resources */,
-				18DBD18520AA5E1E00632B5A /* Assets.xcassets in Resources */,
-				18DBD18320AA5E1C00632B5A /* Main.storyboard in Resources */,
+				18469E8320DA38A700575942 /* LaunchScreen.storyboard in Resources */,
+				18469E8020DA38A700575942 /* Assets.xcassets in Resources */,
+				18469E7B20DA38A400575942 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		18DBD17420AA5E1C00632B5A /* Sources */ = {
+		18469E6C20DA38A400575942 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18DBD18020AA5E1C00632B5A /* ViewController.m in Sources */,
-				18DBD18B20AA5E1E00632B5A /* main.m in Sources */,
-				18DBD17D20AA5E1C00632B5A /* AppDelegate.m in Sources */,
+				18469E7820DA38A400575942 /* ViewController.m in Sources */,
+				18469E7E20DA38A400575942 /* myiCloudTest.xcdatamodeld in Sources */,
+				18469E8620DA38A700575942 /* main.m in Sources */,
+				18469E7520DA38A400575942 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		18DBD18120AA5E1C00632B5A /* Main.storyboard */ = {
+		18469E7920DA38A400575942 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				18DBD18220AA5E1C00632B5A /* Base */,
+				18469E7A20DA38A400575942 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		18DBD18620AA5E1E00632B5A /* LaunchScreen.storyboard */ = {
+		18469E8120DA38A700575942 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				18DBD18720AA5E1E00632B5A /* Base */,
+				18469E8220DA38A700575942 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -171,7 +173,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		18DBD18C20AA5E1E00632B5A /* Debug */ = {
+		18469E8720DA38A700575942 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -229,7 +231,7 @@
 			};
 			name = Debug;
 		};
-		18DBD18D20AA5E1E00632B5A /* Release */ = {
+		18469E8820DA38A700575942 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -281,35 +283,35 @@
 			};
 			name = Release;
 		};
-		18DBD18F20AA5E1E00632B5A /* Debug */ = {
+		18469E8A20DA38A700575942 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 84H36V2Z9L;
-				INFOPLIST_FILE = AVPlayerTest/Info.plist;
+				INFOPLIST_FILE = myiCloudTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.chenyuanxin.AVPlayerTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenyuanxin.myiCloudTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		18DBD19020AA5E1E00632B5A /* Release */ = {
+		18469E8B20DA38A700575942 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 84H36V2Z9L;
-				INFOPLIST_FILE = AVPlayerTest/Info.plist;
+				INFOPLIST_FILE = myiCloudTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.chenyuanxin.AVPlayerTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenyuanxin.myiCloudTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -318,25 +320,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		18DBD17320AA5E1C00632B5A /* Build configuration list for PBXProject "AVPlayerTest" */ = {
+		18469E6B20DA38A400575942 /* Build configuration list for PBXProject "myiCloudTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18DBD18C20AA5E1E00632B5A /* Debug */,
-				18DBD18D20AA5E1E00632B5A /* Release */,
+				18469E8720DA38A700575942 /* Debug */,
+				18469E8820DA38A700575942 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18DBD18E20AA5E1E00632B5A /* Build configuration list for PBXNativeTarget "AVPlayerTest" */ = {
+		18469E8920DA38A700575942 /* Build configuration list for PBXNativeTarget "myiCloudTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18DBD18F20AA5E1E00632B5A /* Debug */,
-				18DBD19020AA5E1E00632B5A /* Release */,
+				18469E8A20DA38A700575942 /* Debug */,
+				18469E8B20DA38A700575942 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18469E7C20DA38A400575942 /* myiCloudTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18469E7D20DA38A400575942 /* myiCloudTest.xcdatamodel */,
+			);
+			currentVersion = 18469E7D20DA38A400575942 /* myiCloudTest.xcdatamodel */;
+			path = myiCloudTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
-	rootObject = 18DBD17020AA5E1C00632B5A /* Project object */;
+	rootObject = 18469E6820DA38A400575942 /* Project object */;
 }

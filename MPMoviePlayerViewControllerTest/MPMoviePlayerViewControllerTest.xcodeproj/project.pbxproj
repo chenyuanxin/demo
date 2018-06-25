@@ -13,7 +13,7 @@
 		18DBD16120A9139E00632B5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DBD16020A9139E00632B5A /* Assets.xcassets */; };
 		18DBD16420A9139E00632B5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DBD16220A9139E00632B5A /* LaunchScreen.storyboard */; };
 		18DBD16720A9139E00632B5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DBD16620A9139E00632B5A /* main.m */; };
-		18DBD16E20A9161800632B5A /* iphone.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 18DBD16D20A9161800632B5A /* iphone.mp4 */; };
+		18DBD16E20A9161800632B5A /* iphone1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 18DBD16D20A9161800632B5A /* iphone1.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		18DBD16320A9139E00632B5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18DBD16520A9139E00632B5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18DBD16620A9139E00632B5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		18DBD16D20A9161800632B5A /* iphone.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = iphone.mp4; path = ../../../../Downloads/iphone.mp4; sourceTree = "<group>"; };
+		18DBD16D20A9161800632B5A /* iphone1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = iphone1.mp4; path = ../../../../Downloads/iphone1.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +64,7 @@
 				18DBD15820A9139C00632B5A /* AppDelegate.m */,
 				18DBD15A20A9139C00632B5A /* ViewController.h */,
 				18DBD15B20A9139C00632B5A /* ViewController.m */,
-				18DBD16D20A9161800632B5A /* iphone.mp4 */,
+				18DBD16D20A9161800632B5A /* iphone1.mp4 */,
 				18DBD15D20A9139C00632B5A /* Main.storyboard */,
 				18DBD16020A9139E00632B5A /* Assets.xcassets */,
 				18DBD16220A9139E00632B5A /* LaunchScreen.storyboard */,
@@ -131,7 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18DBD16E20A9161800632B5A /* iphone.mp4 in Resources */,
+				18DBD16E20A9161800632B5A /* iphone1.mp4 in Resources */,
 				18DBD16420A9139E00632B5A /* LaunchScreen.storyboard in Resources */,
 				18DBD16120A9139E00632B5A /* Assets.xcassets in Resources */,
 				18DBD15F20A9139C00632B5A /* Main.storyboard in Resources */,
